@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0ed478670dee5d74a9516c25c950b019
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - myskin: {instanceID: 0}
+  - fish: {fileID: 2800000, guid: 7fd48e64952e8834c9709191c7eceeae, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
