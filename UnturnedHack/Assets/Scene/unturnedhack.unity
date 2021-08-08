@@ -166,16 +166,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ed478670dee5d74a9516c25c950b019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuRect:
-    serializedVersion: 2
-    x: 20
-    y: 20
-    width: 700
-    height: 450
-  fish: {fileID: 2800000, guid: de194b4b67f12f0469b9e812a0613525, type: 3}
+  fish: {fileID: 2800000, guid: 4fe565df994e0964d80b3680474fe33a, type: 3}
   skin: {fileID: 11400000, guid: 9e0d1c9256af5e04e9d324024c07f64c, type: 2}
-  x: 341
-  y: 277
+  x: 10
+  y: 10
+  x1: 0
+  y1: 0
+  x2: 0
+  y2: 0
+  x3: 0
+  y3: 0
+  i: -300
+  canIncrease: 0
+  canDecrease: 0
+  spied: 0
 --- !u!1 &946525259
 GameObject:
   m_ObjectHideFlags: 0
