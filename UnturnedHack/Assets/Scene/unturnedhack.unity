@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 803855eaa244ede488bca3e4f7058938, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18827492, g: 0.19114038, b: 0.19109994, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 572251605}
   - component: {fileID: 572251604}
   - component: {fileID: 572251606}
+  - component: {fileID: 572251607}
   m_Layer: 0
   m_Name: AssetBundleLoader
   m_TagString: Untagged
@@ -142,8 +143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetName: test
---- !u!4 &572251605
-Transform:
+--- !u!224 &572251605
+RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -155,6 +156,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572251606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,20 +172,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ed478670dee5d74a9516c25c950b019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fish: {fileID: 2800000, guid: 4fe565df994e0964d80b3680474fe33a, type: 3}
+  hitboximage: {fileID: 2800000, guid: 4fe565df994e0964d80b3680474fe33a, type: 3}
   skin: {fileID: 11400000, guid: 9e0d1c9256af5e04e9d324024c07f64c, type: 2}
-  x: 10
-  y: 10
-  x1: 0
-  y1: 0
-  x2: 0
-  y2: 0
-  x3: 0
-  y3: 0
+  x: 460
+  y: 280
+  x1: 64
+  y1: 204
+  x2: 192
+  y2: 233
+  x3: 186
+  y3: 198
+  x4: 15
+  y4: 163
+  x5: 20
+  y5: 119
+  x6: 235
+  y6: 166
+  x7: 225
+  y7: 106
+  x8: 89
+  y8: 105
+  x9: 184
+  y9: 37
   i: -300
   canIncrease: 0
   canDecrease: 0
   spied: 0
+  text: 
+  aimkey: 277
+--- !u!114 &572251607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 572251603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3609f1281b73f746a6f524b9dbf3c15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stars: {fileID: 2100000, guid: f531e09e2ad2fb440b4eed7605863143, type: 2}
+  Cloulds: {fileID: 2100000, guid: 803855eaa244ede488bca3e4f7058938, type: 2}
+  Mars: {fileID: 2100000, guid: 655065b40d110954aa918747d80faed5, type: 2}
 --- !u!1 &946525259
 GameObject:
   m_ObjectHideFlags: 0
